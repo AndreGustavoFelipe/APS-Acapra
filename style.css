@@ -116,40 +116,72 @@ nav{
     width: 100%;
 }
 
-.divCard{
+.divTituloNoticias{
     background-color: var(--corNav);
     box-shadow: 1px 1px 10px 5px var(--corSombra);
 
     border-radius: 10px;
 
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
-    width: 35%;
+    width: 50%;
     height: 80%;
 }
 
-.divNoticias{
-    background-color: white;
-    opacity: 85%;
-    width: 50%;
-}
+.divTituloEventos{
+    background-color: var(--corNav);
+    box-shadow: 1px 1px 10px 5px var(--corSombra);
 
-.divProximosEventos{
-    background-color: white;
-    opacity: 85%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
     width: 25%;
+    height: 80%;
 }
 
-.tituloDiv, .titulo{
-    background-color: #a29aed;
-
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 15px;
-
+.titulo{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
 
+.construcao{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+    padding-top: 35%;
+}
+
+.divCard{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
     width: 100%;
-    height: 10%;
+    height: 85%;
+}
+
+.divCard a{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.imgNoticias{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    display: block;
 }
