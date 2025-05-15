@@ -52,7 +52,7 @@ nav{
 
     box-shadow: 1px 1px 10px 5px var(--corSombra);
 
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 
 .olNav{
@@ -203,7 +203,7 @@ p {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -219,13 +219,14 @@ h2 {
         box-shadow: 1px 1px 10px 5px var(--corSombra);
         border-radius: 10px;
         display: inline-block;
+        padding-top: 30px;
         width: 80%;
         height: 90%;
     }
 
     .p1 {
         padding: 20px;
-        font-size: 17px;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -247,7 +248,7 @@ h2 {
        
         }
 
-    .container-texto1 {
+.container-texto1 {
     background-color: #9492e7; 
     border-radius: 10px;
     width: 20%;
@@ -257,9 +258,9 @@ h2 {
     bottom: 20px;
     left: 20%;
     transform: translate(-50%);
-    }
+}
 
-    .container-texto2 {
+.container-texto2 {
     background-color: #9492e7; 
     border-radius: 10px;
     width: 20%;
@@ -270,3 +271,25 @@ h2 {
     right: 20%;
     transform: translate(50%);
     }
+
+.divAnimais{
+    background-color: #a29aed;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+    .divAnimais p{
+        text-align: center;    
+    }
+
+    .divAnimais img{
+        border-radius: 10px;
+    }
+
+    .animais{
+        height: 50%;
+        width: 100%;
+    }   
