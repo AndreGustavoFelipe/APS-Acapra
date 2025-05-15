@@ -228,3 +228,45 @@ h2 {
         font-size: 17px;
         text-align: center;
     }
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        padding-top: 50px;
+        }
+    .img-container {
+        width: 80%;
+        text-align: center;
+        }
+    .img-container img {
+        width: 82%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+       
+        }
+
+    .container-texto1 {
+    background-color: #9492e7; 
+    border-radius: 10px;
+    width: 25%;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    transform: translate(-50%);
+    }
+
+    .container-texto2 {
+    background-color: #9492e7; 
+    border-radius: 10px;
+    width: 25%;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20%;
+    transform: translate(50%);
+    }
