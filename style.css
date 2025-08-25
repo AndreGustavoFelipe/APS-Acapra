@@ -305,3 +305,7 @@ h2 {
 .olNav a:hover{
     text-decoration: none;   
 }
+
+.olNavSelected{
+    text-decoration: none;
+}
