@@ -300,6 +300,10 @@ h2 {
 
 .divAnimais{
     background-color: #a29aed;
+    background-image: url("imgs/background.jpg");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     height: 80%;
@@ -309,7 +313,7 @@ h2 {
 }
 
     .divAnimais p{
-        text-align: center;    
+        text-align: justify;    
     }
 
     .divAnimais img{
