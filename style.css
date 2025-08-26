@@ -193,15 +193,17 @@ nav {
     box-shadow: 1px 1px 10px 5px var(--corSombra);
     border-radius: 10px;
     display: inline-block;
-    width: 80%;
-    height: 80%;
+    width: 35%;
+    height: 90%;
+    justify-content: justify;
+    overflow-y: auto;
 }
 
 p {
     padding: 20px;
     margin-bottom: 25px;
     font-size: 22px;
-    text-align: center;
+    text-align: justify;
 }
 
 h1 {
@@ -222,14 +224,16 @@ h2 {
         border-radius: 10px;
         display: inline-block;
         padding-top: 30px;
-        width: 80%;
+        width: 35%;
         height: 90%;
+        justify-content: justify;
+        overflow-y: auto;
     }
 
     .p1 {
         padding: 20px;
         font-size: 22px;
-        text-align: center;
+        text-align: justify;
     }
 
 .sectionAdocao{
