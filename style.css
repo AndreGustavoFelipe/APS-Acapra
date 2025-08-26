@@ -23,7 +23,7 @@ html, body{
 
 }
 
-header{
+header, footer{
     z-index: 2;
     height: 10%;
     position: relative;
@@ -39,19 +39,15 @@ div{
     flex-direction: row;
 }
 
-nav{
-
+nav {
     background-color: var(--corNav);
-
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: flex-start; /* Alinha tudo à esquerda, espaço à direita */
+    align-items: center;
     height: 100%;
     width: 100%;
-
     box-shadow: 1px 1px 10px 5px var(--corSombra);
-
     font-size: 1.8em;
 }
 
