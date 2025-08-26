@@ -1,5 +1,5 @@
 :root{
-    --corNav: #a29aed;
+    --corNav: #454385;
     --corPrincipal: #545384;
     --corSombra: #13133c5e;
 }
@@ -94,11 +94,10 @@ nav {
 }
 
 .sectionPrincipal{
-    background-image: url('imgs/background.jpg');
-    background-size: 100% 100%; 
+    background-image: url("imgs/background.jpg");
+    background-size: cover;      
+    background-position: center; 
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
 
     height: 100%;
     width: 100%;
@@ -288,6 +287,7 @@ h2 {
     align-items: center;
     height: 50%;
     border-radius: 40px;
+
 }
 
 .shadow{
