@@ -384,6 +384,29 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .divTituloEventos{
+        width: 75%;
+        height: 20%;
+    }
+
+    .divTituloEventos .titulo{
+        height: 50%;
+    }
+
+    .divTituloNoticias{
+        height: 55%;
+        width: 75%;
+    }
+
+    .divTituloNoticias .divCard{
+        overflow-y: auto;
+        gap: 3vh;
+        height: 100%;
+    }
 
     .containerAnimais{
         flex-direction: row;
