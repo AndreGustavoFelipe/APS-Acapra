@@ -301,6 +301,7 @@ h2 {
     background-color: var(--corNav);
     align-items: center;
     height: 50%;
+    width: 45%;
     border-radius: 40px;
 
 }
@@ -463,6 +464,38 @@ h2 {
         overflow-y: auto;
         gap: 3vh;
         height: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+    main{
+        height: 80%;
+        overflow-y: auto;
+    }
+
+    .sectionAdocao{
+        height: auto;
+    }
+
+    .row{
+        gap: 5vw;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .column{
+        width: 80%;
+    }
+
+    .columnAdotar{
+        flex-direction: column;
+        margin: 50px;
+        gap: 4vh;
+    }
+
+    .column-text{
+        
+        width: 80%;
     }
 }
 
