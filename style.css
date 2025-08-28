@@ -55,7 +55,7 @@ nav {
     background-color: var(--corNav);
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* Alinha tudo à esquerda, espaço à direita */
+    justify-content: flex-start; 
     align-items: center;
     height: 100%;
     width: 100%;
@@ -350,29 +350,29 @@ h2 {
     text-decoration: none;
 }
 
-.divMTratos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    text-size-adjust: auto;
-    background-color: var(--corNav);
-    box-shadow: 1px 1px 10px 5px var(--corSombra);
-    
-    border-radius: 10px;
+.containerTratos {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 20px;
 }
 
-.divMTratos1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: right;
-
-    background-color: var(--corNav);
-    box-shadow: 1px 1px 10px 5px var(--corSombra);
-    
-    border-radius: 10px;
+.maus-tratos {
+  flex: 1;
+  padding: 15px;
+  background-color: #49447a;
+  border-radius: 8px;
+  font-size: 40px;
 }
+
+.como-denunciar {
+  flex: 1;
+  padding: 15px;
+  background-color: #49447a;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
 
 /* ----- RESPONSIVIDADE ------ */
 
