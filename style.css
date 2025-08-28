@@ -123,6 +123,8 @@ nav {
 
     height: 100%;
     width: 100%;
+
+    padding: 30px;
 }
 
 .divTituloNoticias{
@@ -354,7 +356,7 @@ h2 {
   display: flex;
   justify-content: space-between; 
   gap: 20px; 
-  padding: 20px;
+  padding: 30px;
 }
 
 .maus-tratos {
@@ -371,6 +373,10 @@ h2 {
   background-color: #49447a;
   border-radius: 8px;
   font-size: 30px;
+}
+
+.maus-tratos, .como-denunciar{
+    box-shadow: 1px 1px 10px 5px var(--corSombra);   
 }
 
 
@@ -500,6 +506,17 @@ h2 {
 
     .divSobre, .divFaq{
         width: 70%;
+    }
+
+    .sectionPrincipal{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .containerTratos{
+        flex-direction: column;
+        width: 80%;
     }
 }
 
