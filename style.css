@@ -112,7 +112,7 @@ nav {
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
-
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
 }
@@ -188,6 +188,7 @@ nav {
     
     width: 100%;
     height: 85%;
+
 }
 
 .divCard a{
@@ -213,7 +214,7 @@ nav {
     height: 80%;
     justify-content: justify;
     overflow-y: auto;
-    padding: 40px;
+    padding: 30px;
 }
 
 p {
@@ -434,7 +435,39 @@ h2 {
     .divAnimais p{
         font-size: 3vw;
     }
-    
+
+    nav { 
+        font-size: 3vw; 
+        gap: 5vw;
+    }
+
+    .olNav { 
+        font-size: 3vw;
+        width: auto;
+        justify-content: center;
+        gap: 5vw; 
+    }
+
+    .divImgRedes { 
+        font-size: 3vw; 
+    }
+
+    .divCard {
+        max-height: 50vh;
+    }
+
+    .container {
+        padding: 12px;
+    }
+
+    .divTituloNoticias, .divTituloEventos {
+        height: auto;
+    }
+
+    .titulo, .construcao {
+        font-size: 4vw;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -522,12 +555,12 @@ h2 {
     }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 200px) {
     .divCard a{
         height: 25%;
     }
 
-    .divAnimais p{
-        font-size: 1vw;  
+    .divAnimais p {
+        font-size: 4vw;  
     }
 }
